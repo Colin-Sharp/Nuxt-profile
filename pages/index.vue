@@ -33,5 +33,6 @@ const opacity = computed(() => Math.min(Math.max(size.value / 300, 0.7)));
         </Experience>
       </section>
     </main>
+    <Footer></Footer>
   </div>
 </template>
