@@ -1,0 +1,45 @@
+@use 'sass:meta';
+
+@include meta.load-css('./imports/components.imports.scss');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "BLADRMF";
+  src: url("/fonts/BLADRMF_.ttf");
+}
+
+@font-face {
+  font-family: "Game Paused";
+  src: url("/fonts/GamePaused.otf");
+}
+
+@font-face {
+  font-family: "mini system";
+  src: url("/fonts/Minisystem.otf");
+}
+
+html {
+  @apply scroll-smooth;
+  scroll-padding-top: 100px;
+}
+
+body {
+  @apply relative;
+  @apply bg-gray-800;
+  color: rgba(58, 220, 117, 0.8);
+}
+
+p, li {
+  text-align:justify;
+}
+
+nav {
+  font-family: "mini system", sans-serif;
+}
+
+h1, h2 {
+  font-family: "BLADRMF", sans-serif;
+}
