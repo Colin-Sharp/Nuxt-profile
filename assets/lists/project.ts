@@ -13,6 +13,6 @@ export const projects: Array<ProjectInterface> = [
     description: "A portfolio website built with Next.js and used Aceternity UI to create some cool effects.",
     imgSrc: "/images/AceternityUI.svg",
     gitHubLink: "https://github.com/Colin-Sharp/Profile_site",
-    liveLink: "https://colinsinclairsmithdeveloper.netlify.app/",
+    liveLink: "https://colinsinclairsmith-next.netlify.app/",
   },
 ];
