@@ -10,7 +10,7 @@ defineProps({
 </script>
 
 <template>
-  <section v-if="skills?.length" class="flex flex-col">
+  <section v-if="skills?.length" class="flex flex-wrap">
     <Skill
       v-for="(skill, index) in skills"
       :text="skill.text"

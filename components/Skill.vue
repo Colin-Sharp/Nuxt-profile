@@ -36,9 +36,8 @@ function onloadShowSkillLevel() {
 </script>
 
 <template>
-  <div :class="['skill-wrapper my-2', skillLevel, {'show-skill-level': state.showSkillLevel}]">
+  <div :class="['skill-wrapper w-full sm:w-1/2 my-2', skillLevel, {'show-skill-level': state.showSkillLevel}]">
     <div class="skill">
-      <!-- <img :src="imgSrc" :alt="text"> -->
       <p>{{ text }}</p>
     </div>
     <div :class="['skill-background', skillLevel]"></div>

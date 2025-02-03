@@ -8,4 +8,16 @@ export default defineNuxtConfig({
   css: [
     "~/assets/styles/main.scss",
   ],
+  app: {
+    head: {
+      title: "Colin Sinclair-Smith",
+      meta: [
+        {
+          name: "description",
+          content:
+            "Portfolio website of Colin Sinclair-Smith in Blade Runner 2049 style.",
+        },
+      ],
+    },
+  },
 })

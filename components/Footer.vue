@@ -1,6 +1,6 @@
 <template>
   <footer class="flex justify-center gap-4 p-4 fixed bottom-0 w-full  bg-gray-800 bg-opacity-70 z-50">
-    <a href="tomail:colinsinclairsmith2@gmail.com">
+    <a href="mailto:colinsinclairsmith2@gmail.com">
       <img class="h-10 w-10 hover:shadow-lg" src="/images/envelope-regular.svg" alt="email">
     </a>
     <a href="https://github.com/Colin-Sharp" target="_blank">

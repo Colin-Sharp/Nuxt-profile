@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useMouse, useWindowSize } from "@vueuse/core";
 import { skills } from "~/assets/lists/skills";
+import { projects } from "~/assets/lists/project";
 import { experience } from "~/assets/lists/experance";
 
 const { x, y } = useMouse();
@@ -31,6 +32,9 @@ const opacity = computed(() => Math.min(Math.max(size.value / 300, 0.7)));
       <section id="experience" class="flex flex-col gap-4">
         <Experience v-for="(item, index) in experience" :key="index" :experience="item">
         </Experience>
+      </section>
+      <section id="projects" class="flex my-10 flex-wrap">
+        <Project class="w-full sm:w-6/12" v-for="(item, index) in projects" :key="index" :project="item"></Project>
       </section>
     </main>
     <Footer></Footer>
