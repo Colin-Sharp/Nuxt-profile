@@ -24,7 +24,7 @@ const opacity = computed(() => Math.min(Math.max(size.value / 300, 0.7)));
     ></div>
     <Header></Header>
     <main class="px-4 py-24 max-w-screen-lg mx-auto">
-      <section class="container">
+      <section class="container" id="skills">
         <h1 class="text-4xl font-bold">Colin Sinclair-Smith</h1>
         <h2 class="text-2xl font-bold">Frontend Developer</h2>
       </section>
