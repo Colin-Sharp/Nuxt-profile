@@ -10,11 +10,12 @@ export const experience: Array<ExperienceInterface> = [
       "Building full web applications from scratch, I have helped create several Vue web applications in my time working at MYNDUP.",
       "Strapi CMS, I have created a CMS system using Strapi for our wellbeing library for our marketing team to use. This involved overcoming a few custom issues like creating a proxy on the backend of our Strapi project, in order to use the client`s IP address on the server side for geo location to protect our API key, to name one.",
       "Mentoring and providing guidance, I have had the opportunity to help progress an individual that wants to become a Frontend Developer.",
-      "Golang, I have also been picking up some tasks on our backend that in Golang. I have found it an interesting and rewarding experience.",
+      "Golang, adding features and fixing bugs in our backend in Golang. I have found it an interesting and rewarding experience.",
+      "AWS, I have complete a course on AWS Cloud Practitioner that covers AWS services like S3, Cloudfront, Lambda, API Gateway, Cognito, Route 53, SES, SNS, SQS, DynamoDB, RDS, Elastic Beanstalk, CloudWatch, CloudFormation, CodePipeline, CodeBuild, CodeDeploy, Amplify, to name a few.",
     ],
     content: [
-      "Current role at MYNDUP is primarily working as a Frontend Developer with Vue.js. I have gained experience working in a greenfield environment. I have created new projects from scratch in the latest version of Vue.js with Typescript along with creating a CMS using Strapi for our marketing team to add new articles/videos/etc.",
-      "In addition to the frontend work, I have also picked up some backend work in Golang. I am always excited  to learn new things and take on new challenges. Here at MYNDUP I have also had the opportunity to mentor and I have found it very enjoyable to help others to develop their skills and approach to solving problems.",
+      "Current role at MYNDUP is primarily working as a Frontend Developer with Vue.js but also a big step towards full stack with Golang. I have gained experience working in a greenfield environment. I have created new projects from scratch in the latest version of Vue.js with Typescript along with creating a CMS using Strapi for our marketing team to add new articles/videos/etc.",
+      "In addition to the frontend work, I have also picked up some backend work in Golang. I am always excited to learn new things and take on new challenges. Here at MYNDUP I have also had the opportunity to mentor and I have found it very enjoyable to help others to develop their skills and approach to solving problems.",
     ],
   },
   {
@@ -32,7 +33,7 @@ export const experience: Array<ExperienceInterface> = [
     ],
   },
   {
-    title: "Frontend Developer",
+    title: "Software Developer",
     subtitle: "Leadstream (Lead finding company)",
     skillList: [
       "Vue.js version 2, Nuxt.",
