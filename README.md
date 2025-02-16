@@ -1,4 +1,4 @@
-# Nuxt Minimal Starter
+# Nuxt Profile site, about Colin Sinclair-Smith
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
