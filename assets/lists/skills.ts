@@ -95,4 +95,19 @@ export const skills: Array<SkillInterface> = [
     imgSrc: "/images/strapi.svg",
     skillLevel: SkillLevelEnum.HIGHTLY_SKILLED,
   },
+  {
+    text: "Docker",
+    imgSrc: "/images/docker.svg",
+    skillLevel: SkillLevelEnum.FOUNDATION,
+  },
+  {
+    text: "Python",
+    imgSrc: "/images/python.svg",
+    skillLevel: SkillLevelEnum.FOUNDATION,
+  },
+  {
+    text: "SQL",
+    imgSrc: "/images/sql.svg",
+    skillLevel: SkillLevelEnum.INTERMEDIATE,
+  },
 ];

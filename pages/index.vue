@@ -5,11 +5,10 @@ import { projects } from "~/assets/lists/project";
 import { experience } from "~/assets/lists/experance";
 
 const { x, y } = useMouse();
-const { width, height } = useWindowSize();
+const { width } = useWindowSize();
 const dx = computed(() => Math.abs(x.value - width.value / 2));
-const dy = computed(() => Math.abs(y.value - height.value / 2));
 const distance = computed(() =>
-  Math.sqrt(dx.value * dx.value + dy.value * dy.value)
+  Math.sqrt(dx.value * dx.value)
 );
 const size = computed(() => Math.max(300 - distance.value / 3, 150));
 const opacity = computed(() => Math.min(Math.max(size.value / 300, 0.7)));
@@ -19,7 +18,7 @@ const opacity = computed(() => Math.min(Math.max(size.value / 300, 0.7)));
 <template>
   <div>
     <div
-      class="cursor-background absolute bg-green-500/30 rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none blur-3xl"
+      class="cursor-background absolute bg-green-600/30 rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none blur-3xl"
       :style="`left: ${x}px; top: ${y}px; width: ${size}px; height: ${size}px; opacity: ${opacity}`"
     ></div>
     <Header></Header>
@@ -40,3 +39,9 @@ const opacity = computed(() => Math.min(Math.max(size.value / 300, 0.7)));
     <Footer></Footer>
   </div>
 </template>
+
+<style scoped>
+.whatever {
+  color: #38ab24;
+}
+</style>
