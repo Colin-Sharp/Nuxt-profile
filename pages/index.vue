@@ -32,9 +32,9 @@ const opacity = computed(() => Math.min(Math.max(size.value / 300, 0.7)));
         <Experience v-for="(item, index) in experience" :key="index" :experience="item">
         </Experience>
       </section>
-      <section id="projects" class="flex my-10 flex-wrap">
+      <!-- <section id="projects" class="flex my-10 flex-wrap">
         <Project class="w-full sm:w-6/12" v-for="(item, index) in projects" :key="index" :project="item"></Project>
-      </section>
+      </section> -->
     </main>
     <Footer></Footer>
   </div>
